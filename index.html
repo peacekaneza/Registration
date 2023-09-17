@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <form action="login.html" id="form1" method="POST">
+      <h1>Registration Form</h1>
+      <div class="input-control">
+        <label for="studentId">Student ID</label>
+        <input type="text" id="id" name="id" />
+        <div class="error"></div>
+      </div> 
+      <div class="input-control">
+        <label for="fname">First Name</label>
+        <span class="icon"><ion-icon name="person"></ion-icon></span>
+        <input type="text" id="fname" name="fname" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="lname">Last Name</label>
+        <span class="icon"><ion-icon name="person"></ion-icon></span>
+        <input type="text" id="lname" name="lname" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="email">Email</label>
+        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+        <input type="text" id="email1" name="email1" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="phone">Phone</label>
+        <span class="icon"><ion-icon name="call"></ion-icon></span>
+        <input type="number" id="phone" name="phone" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="birthdate">Birth Date</label>
+        <input type="date" id="birthdate" name="birthdate" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="faculty">Choose Faculty:</label>
+        <span class="icon"><ion-icon name="school"></ion-icon></span>
+        <input type="text" id="faculty" name="faculty" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="department">Department</label>
+        <span class="icon"><ion-icon name="school"></ion-icon></span>
+        <input type="text" id="department" name="department" />
+        <div class="error"></div>
+      </div>
+
+      <div class="input-control">
+        <label for="password">Password</label>
+        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password" id="password1" name="password1" />
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Confirm Password</label>
+        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+        <input type="password" id="password2" name="password2" />
+        <div class="error"></div>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox" /> Agree to terms & conditions</label>
+        <a href="#"></a>
+      </div>
+      <button type="submit">Sign Up</button>
+
+      <p>already have an account? <a href="./login.html"> login</a></p>
+    </form>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
